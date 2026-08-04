@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/IntegralCF-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/IntegralCF-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/Satoshi-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+  line-height: 1.5;
+}
+.sign__up {
+  font-size: 12px;
+}
+.sign__up--btn {
+  font-weight: 500;
+  color: #fff;
+}
+.pop__up {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 9px;
+}
+.burger__icon {
+  font-size: 2.4rem;
+  margin-top: 20px;
+}
+.logo {
+  width: 126px;
+  height: 18px;
+  margin-left: 15px;
+  margin-top: 23px;
+}
+.header__class {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right__icons {
+  display: flex;
+  align-items: center;
+  width: 96px;
+  height: 24px;
+  gap: 12px;
+  margin-right: 16px;
+  margin-top: 20px;
+}
+.main__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f2f0f1;
+  margin-top: 40px;
+  margin-bottom: 0;
+  margin-right: 59px;
+  margin-left: 16px;
+}
+.new__container {
+  background-color: #f2f0f1;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.main__title {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 36px;
+  color: #000;
+}
+.secondary__title {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 14px;
+  color: #00000099;
+}
+.shop__now__button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 8px;
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-left: 16px;
+  font-family: "satoshi";
+  width: 100%;
+  height: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f0f1;
+  margin: 52px;
+}
+.number__1 {
+  font-family: "satoshi";
+  width: 64px;
+  height: 32px;
+  weight: 700;
+  font-size: 24px;
+  style: bold;
+  color: #000000;
+}
+.text__1 {
+  font-family: "Satoshi";
+  width: 106px;
+  height: 22px;
+  weight: 400;
+  font-size: 12px;
+  color: #00000099;
+}
+.number__2 {
+  font-family: "satoshi";
+  width: 88px;
+  height: 32px;
+  weight: 700;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+.text__2 {
+  font-family: "Satoshi";
+  width: 106px;
+  height: 22px;
+  weight: 400;
+  font-size: 12px;
+  color: #00000099;
+}
+.stat__3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f2f0f1;
+}
+.number__3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "satoshi";
+  width: 103px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+.text__3 {
+  align-items: center;
+  flex-direction: column;
+  font-family: "Satoshi";
+  width: 106px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #00000099;
+}
+.image__1 {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  height: 448px;
+  background-color: #f2f0f1;
+}
+.brand__icons {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  width: 100%;
+  height: 146px;
+  top: 951px;
+}
+.NEW__ARRIVALS {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+.TOP__SELLING {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+.BROWSE__STYLE {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+.HAPPY__CUSTOMERS {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+.OFFERS {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 32px;
+}
