@@ -1,17 +1,8 @@
 @font-face {
-  font-family: "Integral CF";
-  src: url("../fonts/IntegralCF-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Integral";
+  src: url("./assets/fonts/integral/integral.woff2") format("woff2");
+  font-display: swap;
 }
-
-@font-face {
-  font-family: "Integral CF";
-  src: url("../fonts/IntegralCF-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-}
-
 /* @font-face {
   font-family: "Satoshi";
   src: url("../fonts/Satoshi-Regular.otf") format("opentype");
@@ -36,6 +27,7 @@ html {
 body {
   font-family: "Satoshi", sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 .sign__up {
   font-size: 12px;
@@ -49,44 +41,58 @@ body {
   background-color: #000;
   color: #fff;
   padding: 9px;
+  position: relative;
+}
+.closing__icon {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  display: none;
 }
 .burger__icon {
   font-size: 2.4rem;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .logo {
   width: 126px;
   height: 18px;
   margin-left: 15px;
-  margin-top: 23px;
+  /* margin-top: 23px; */
 }
 .header__class {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+  padding: 0 16px;
 }
 .right__icons {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 96px;
   height: 24px;
   gap: 12px;
-  margin-right: 16px;
-  margin-top: 20px;
+  /* margin-right: 16px;
+  margin-top: 20px; */
+}
+.search__button {
+  font-size: 24px;
+}
+.cart {
+  font-size: 24px;
+}
+.person__circle {
+  font-size: 24px;
 }
 .main__page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #f2f0f1;
-  margin-top: 40px;
-  margin-bottom: 0;
-  margin-right: 59px;
-  margin-left: 16px;
-}
-.new__container {
   background-color: #f2f0f1;
 }
+
 .main__content {
   display: flex;
   flex-direction: column;
@@ -94,34 +100,74 @@ body {
   width: 100%;
 }
 .main__title {
-  font-family: "Integral CF";
+  font-family: "Integral", Impact, sans-serif;
+  letter-spacing: 0;
+  line-height: 34px;
   font-weight: 700;
   font-size: 36px;
   color: #000;
+  margin-top: 4rem;
+  margin-left: 1.6rem;
 }
 .secondary__title {
-  font-family: "Satoshi";
   font-weight: 400;
   font-size: 14px;
+  line-height: 2rem;
   color: #00000099;
+  margin: 2rem 1.6rem;
 }
 .shop__now__button {
-  display: flex;
-  align-items: center;
-  background-color: black;
-  border-radius: 8px;
-  margin-top: 24px;
-  margin-right: 16px;
-  margin-left: 16px;
-  font-family: "satoshi";
-  width: 100%;
-  height: 22px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 62px;
+  width: calc(100% - 3.2rem);
+  border: none;
+  margin: 2.4rem 1.6rem;
+  padding: 16px;
   font-weight: 500;
   font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
 }
 .stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.stats__top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 25px;
+}
+
+.stats__top .stats__item + .stats__item {
+  border-left: 1px solid #d9d9d9;
+}
+
+.stats__number {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stats__label {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.stats__item--bottom {
+  align-items: center;
+}
+/* .stats {
   display: flex;
   flex-wrap: wrap;
   background-color: #f2f0f1;
@@ -131,16 +177,16 @@ body {
   font-family: "satoshi";
   width: 64px;
   height: 32px;
-  weight: 700;
+  font-weight: 700;
   font-size: 24px;
-  style: bold;
+  font-style: bold;
   color: #000000;
 }
 .text__1 {
   font-family: "Satoshi";
   width: 106px;
   height: 22px;
-  weight: 400;
+  font-weight: 400;
   font-size: 12px;
   color: #00000099;
 }
@@ -148,7 +194,7 @@ body {
   font-family: "satoshi";
   width: 88px;
   height: 32px;
-  weight: 700;
+  font-weight: 700;
   font-size: 24px;
   font-weight: bold;
   color: #000000;
@@ -157,7 +203,7 @@ body {
   font-family: "Satoshi";
   width: 106px;
   height: 22px;
-  weight: 400;
+  font-weight: 400;
   font-size: 12px;
   color: #00000099;
 }
@@ -188,21 +234,33 @@ body {
   font-weight: 400;
   font-size: 12px;
   color: #00000099;
+} */
+.images {
+  position: relative;
+  overflow: hidden;
+  min-height: 44rem;
 }
-.image__1 {
-  display: flex;
-  align-items: center;
-  /* width: 100%; */
-  height: 448px;
-  background-color: #f2f0f1;
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.vector-2 {
+  position: absolute;
+  left: 2.7rem;
+  top: 13.7rem;
+}
+.vector-1 {
+  position: absolute;
+  right: 2.1rem;
+  top: 4rem;
 }
 .brand__icons {
   display: flex;
   align-items: center;
   background-color: #000;
   width: 100%;
-  height: 146px;
-  top: 951px;
 }
 .NEW__ARRIVALS {
   font-family: "Integral CF";
@@ -232,4 +290,8 @@ body {
   font-family: "Integral CF";
   font-weight: 700;
   font-size: 32px;
+}
+.search,
+.navigation {
+  display: none;
 }
