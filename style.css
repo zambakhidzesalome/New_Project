@@ -167,74 +167,6 @@ body {
 .stats__item--bottom {
   align-items: center;
 }
-/* .stats {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f2f0f1;
-  margin: 52px;
-}
-.number__1 {
-  font-family: "satoshi";
-  width: 64px;
-  height: 32px;
-  font-weight: 700;
-  font-size: 24px;
-  font-style: bold;
-  color: #000000;
-}
-.text__1 {
-  font-family: "Satoshi";
-  width: 106px;
-  height: 22px;
-  font-weight: 400;
-  font-size: 12px;
-  color: #00000099;
-}
-.number__2 {
-  font-family: "satoshi";
-  width: 88px;
-  height: 32px;
-  font-weight: 700;
-  font-size: 24px;
-  font-weight: bold;
-  color: #000000;
-}
-.text__2 {
-  font-family: "Satoshi";
-  width: 106px;
-  height: 22px;
-  font-weight: 400;
-  font-size: 12px;
-  color: #00000099;
-}
-.stat__3 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f2f0f1;
-}
-.number__3 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: "satoshi";
-  width: 103px;
-  height: 32px;
-  font-weight: 700;
-  font-size: 24px;
-  font-weight: bold;
-  color: #000000;
-}
-.text__3 {
-  align-items: center;
-  flex-direction: column;
-  font-family: "Satoshi";
-  width: 106px;
-  height: 22px;
-  font-weight: 400;
-  font-size: 12px;
-  color: #00000099;
-} */
 .images {
   position: relative;
   overflow: hidden;
@@ -294,4 +226,152 @@ body {
 .search,
 .navigation {
   display: none;
+}
+.brand-logos {
+  display: flex;
+  background-color: #000;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.versace-zara-gucci {
+  display: flex;
+  gap: 24px;
+  margin: 4rem 1.6rem 8.2rem 1.6rem;
+}
+.prada-CK {
+  display: flex;
+  gap: 31.16px;
+  margin: 2.2rem 4.8rem 3.9rem 4.8rem;
+}
+.NEW__ARRIVALS {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 3.2rem;
+  display: flex;
+  margin: 5rem 6rem 0 6rem;
+}
+.T-shirt__pants {
+  display: flex;
+  gap: 16px;
+  margin: 32px 0 0 16px;
+  border-radius: 13.42px;
+}
+.second__page {
+  background-color: #fff;
+}
+.image__description {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 34px;
+}
+.review {
+  display: flex;
+  gap: 87px;
+}
+.prices {
+  display: flex;
+  gap: 168px;
+}
+.T-shirt__price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pants__price {
+  font-size: 20px;
+  font-weight: 700;
+  gap: 5px;
+}
+.original__price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00000066;
+  text-decoration: line-through;
+  gap: 5px;
+}
+.discount {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff3333;
+  background-color: #ff33331a;
+  border-radius: 62px;
+  padding: 6px 14px;
+  gap: 12px;
+}
+.View__All {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #0000001a;
+  width: calc(100% - 3.2rem);
+  margin: 2.4rem 1.6rem 0 1.6rem;
+  padding: 16px 54px;
+  border-radius: 62px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.top__selling {
+  border-top: 1px solid #0000001a;
+  margin: 4rem 8rem 0 8rem;
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 3.2rem;
+  display: flex;
+}
+.TOP__SELLING__prices {
+  display: flex;
+  gap: 70px;
+}
+.Graphic__T-shirt__Price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.Stiped__Shirt__Price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.View__All--2 {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #0000001a;
+  width: calc(100% - 3.2rem);
+  margin: 2.4rem 1.6rem 5rem 1.6rem;
+  padding: 16px 54px;
+  border-radius: 62px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.third__page--container {
+  background-color: #fff;
+  width: 100%;
+}
+.third__page {
+  display: flex;
+  margin: 50px 16px 0 16px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  width: 358px;
+}
+.browse {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 3.2rem;
+  display: flex;
+  width: 246px;
+  margin: 40px 56px 0 56px;
+}
+.browse__outfits {
+  display: flex;
+  flex-direction: column;
+}
+.casual {
+  margin-bottom: 16px;
+}
+.formal {
+  margin-bottom: 16px;
+}
+.party {
+  margin-bottom: 16px;
+}
+.gym {
+  margin-bottom: 16px;
 }
