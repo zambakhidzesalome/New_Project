@@ -238,7 +238,7 @@ body {
 .images {
   position: relative;
   overflow: hidden;
-  min-height: 44rem;
+  height: 44rem;
 }
 .hero__image {
   width: 100%;

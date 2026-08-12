@@ -6,7 +6,7 @@
     right: 20px;
   }
 }
-@media (min-width: 90em) {
+@media (min-width: 69em) {
   .closing__icon {
     right: 104px;
     font-size: 2rem;
@@ -15,6 +15,7 @@
     display: none;
   }
   .search {
+    display: block;
     position: relative;
     width: 100%;
   }
@@ -61,5 +62,37 @@
   }
   .right__icons {
     width: 6.2rem;
+  }
+  .main__page {
+    flex-direction: row;
+    padding: 0 10rem;
+  }
+  .titles {
+    flex: 1;
+  }
+  .main__title {
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+  }
+  .images {
+    flex: 1;
+    height: 663px;
+  }
+  .shop__now__button {
+    width: 210px;
+  }
+  .stats {
+    flex-direction: row;
+    gap: 0;
+  }
+  .stats__item {
+    padding: 0;
+    width: 50%;
+  }
+  .stats__number {
+    font-size: 4rem;
+  }
+  .stats__label {
+    font-size: 1.6rem;
   }
 }
