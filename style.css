@@ -331,6 +331,7 @@ body {
   display: flex;
 }
 .products {
+  width: 295px;
   padding: 16px;
 }
 .image__description {
@@ -338,6 +339,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   gap: 34px;
+  margin-top: 16px;
 }
 .review {
   display: flex;
@@ -395,4 +397,9 @@ body {
   width: 100%;
   max-height: 298px;
   border-radius: 20px;
+}
+.line {
+  border-top: 1px solid #0000001a;
+  margin: 64px 100px;
+  display: none;
 }

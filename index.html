@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="#" />
+    <!-- <link rel="icon" href="#" /> -->
     <link
       href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap"
       rel="stylesheet"
@@ -33,10 +33,10 @@
         </div>
         <nav class="navigation">
           <ul class="navigation__list">
-            <div class="shop__frame">
-              <li class="navigation__list--element">Shop</li>
+            <li class="shop__frame">
+              <div class="navigation__list--element">Shop</div>
               <img src="./assets/images/Frame.svg" alt="frame" />
-            </div>
+            </li>
             <li class="navigation__list--element">on sale</li>
             <li class="navigation__list--element">New Arrivals</li>
             <li class="navigation__list--element">Brands</li>
@@ -139,17 +139,25 @@
         <h1 class="NEW__ARRIVALS">NEW ARRIVALS</h1>
         <div class="NEW__ARRIVAL">
           <div class="products">
-            <div class="product__image">
-              <img src="./assets/images/T-shirt.svg" alt="T-shirt" />
-            </div>
+            <!-- <div class="product__image"> -->
+            <img
+              class="product__image"
+              src="./assets/images/T-shirt.svg"
+              alt="T-shirt"
+            />
+            <!-- </div> -->
             <p class="image__description">T-shirt with Tape Details</p>
             <img src="./assets/images/review-4.5.svg" alt="review-4.5" />
             <p class="T-shirt__price">$120</p>
           </div>
-          <div class="products">
-            <div class="product__image">
-              <img src="./assets/images/pants.svg" alt="pants" />
-            </div>
+          <div class="products hidden__pants">
+            <!-- <div class="product__image"> -->
+            <img
+              class="product__image"
+              src="./assets/images/pants.svg"
+              alt="pants"
+            />
+            <!-- </div> -->
             <p class="image__description">Skinny Fit Jeans</p>
             <img src="./assets/images/review-3.5.svg" alt="review-3.5" />
             <div class="pants__prices">
@@ -159,9 +167,29 @@
             </div>
           </div>
           <div class="products hidden">
-            <div class="product__image">
-              <img src="./assets/images/checkered.svg" alt="checkered" />
+            <!-- <div class="product__image"> -->
+            <img
+              class="product__image"
+              src="./assets/images/pants-desktop.svg"
+              alt="pants"
+            />
+            <!-- </div> -->
+            <p class="image__description">Skinny Fit Jeans</p>
+            <img src="./assets/images/review-3.5.svg" alt="review-3.5" />
+            <div class="pants__prices">
+              <p class="pants__price">$240</p>
+              <p class="original__price">$260</p>
+              <p class="discount">-20%</p>
             </div>
+          </div>
+          <div class="products hidden">
+            <!-- <div class="product__image"> -->
+            <img
+              class="product__image"
+              src="./assets/images/checkered.svg"
+              alt="checkered"
+            />
+            <!-- </div> -->
             <p class="image__description">Checkered Shirt</p>
             <img src="./assets/images/review-4.5.svg" alt="review-4.5" />
             <div class="pants__prices">
@@ -171,12 +199,13 @@
             </div>
           </div>
           <div class="products hidden">
-            <div class="product__image">
-              <img
-                src="./assets/images/sleeve-striped.svg"
-                alt="sleeve-striped"
-              />
-            </div>
+            <!-- <div class="product__image"> -->
+            <img
+              class="product__image"
+              src="./assets/images/sleeve-striped.svg"
+              alt="sleeve-striped"
+            />
+            <!-- </div> -->
 
             <p class="image__description">Skinny Fit Jeans</p>
             <img src="./assets/images/review-4.5.svg" alt="review-4.5" />
@@ -187,10 +216,13 @@
             </div>
           </div>
         </div>
-        <div><button class="View__All">View All</button></div>
+        <div class="flex"><button class="View__All">View All</button></div>
+        <div class="line"></div>
       </section>
     </main>
-    <footer><p></p></footer>
+    <footer>
+      <div><h2>STAY UP TO DATE ABOUT OUR LATEST OFFERS</h2></div>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
